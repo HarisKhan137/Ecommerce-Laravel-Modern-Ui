@@ -1,0 +1,109 @@
+/*Sass Template*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+button,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.font-open {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.font-bebas {
+    font-family: "Bebas Neue", cursive !important;
+}
+
+.font-bebas-footer {
+    font-family: "Bebas Neue", cursive !important;
+
+    letter-spacing: 3px;
+}
+
+.font-quicksand {
+    font-family: "Droid Sans Mono", cursive !important;
+}
+
+.font-rale {
+    font-family: "Raleway", sans-serif !important;
+}
+
+.font-brush {
+    font-family: "Nanum Brush Script" !important;
+}
+
+.font-branding {
+    font-family: "Kaushan Script" !important;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+.font-size-24 {
+    font-size: 24px !important;
+}
+
+.font-bolder {
+    font-weight: bolder !important;
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+.font-size-20 {
+    font-size: 20px !important;
+}
+
+.font-size-26 {
+    font-size: 26px !important;
+}
+
+.font-size-36 {
+    font-size: 36px !important;
+}
+.color-primary {
+    color: #edeff1 !important;
+}
+
+.color-primary-bg {
+    background: #edeff1 !important;
+}
+
+.color-second {
+    color: #497dd8 !important;
+}
+
+.color-second-bg {
+    background: #497dd8 !important;
+}
+
+.color-blue {
+    color: #0b0897 !important;
+}
+
+.color-blue-bg {
+    background: #0b0897 !important;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */

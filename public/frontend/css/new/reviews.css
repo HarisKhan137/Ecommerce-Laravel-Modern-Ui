@@ -1,0 +1,27 @@
+/* Reviews */
+
+.reviews {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 67.94px;
+    margin-bottom: 63px;
+}
+.review-card {
+    margin-bottom: 32px;
+}
+.review-card p {
+    width: 90%;
+    text-align: justify;
+    margin-top: 20.5px;
+    padding-right: 10px;
+}
+
+.rating-stars {
+    color: #f15a24;
+}

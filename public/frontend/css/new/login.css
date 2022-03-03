@@ -1,0 +1,75 @@
+/* Login Page Css */
+
+.loginbox {
+    margin-top: 90px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-bottom: 255px;
+}
+
+.loginbox > h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin-bottom: 66px;
+}
+
+.loginbox > h1 {
+    font-family: "GFS Didot", serif;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 91px;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"],
+.loginbox input[type="email"] {
+    font-family: "Raleway", sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    background: none;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 5px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+}
+
+.login-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 16px;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 5px;
+    width: 410px;
+    background-color: black;
+}
+
+h6.register {
+    font-family: GFS Didot;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 700;
+}
+
+a.register {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a.register:hover {
+    color: rgb(53, 56, 58);
+}
+
+a.register:active {
+    color: rgb(0, 38, 255);
+}
+
+/* Login and Register Page Css Ends */

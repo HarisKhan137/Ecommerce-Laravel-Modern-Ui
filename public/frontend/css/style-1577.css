@@ -1,0 +1,336 @@
+/* header CSS */
+html,
+body {
+    overflow-x: hidden;
+}
+
+.special-breadcrumb {
+    background-color: inherit !important;
+}
+
+.special-breadcrumb a:hover {
+    text-decoration: none;
+}
+
+/* header CSS */
+/* header CSS */
+
+ul li ul.dropdown {
+    padding: 0;
+    margin: 0;
+    min-width: 100%; /* Set width of the dropdown */
+    background: #ffffff;
+    display: none;
+    position: absolute;
+    z-index: 1030;
+    text-align: left;
+    left: 0;
+    opacity: 1;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    padding: 0;
+    margin: 2rem 10px;
+    text-align: left;
+    opacity: 1;
+}
+
+ul li ul.dropdown li a {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 300;
+}
+
+ul li:hover ul.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+ul li:hover ul.dropdown li a:hover {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    border: none;
+    opacity: 0.8;
+}
+
+header nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+}
+header nav ul {
+    position: relative;
+    display: flex;
+}
+
+header nav ul .icon {
+    display: none;
+}
+header nav ul .hidelogo {
+    display: none;
+}
+
+header nav ul .brandlogo {
+    margin: 10px 32px 0px 32px;
+}
+#nav-ul {
+    padding-left: 4rem;
+}
+header nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 32px 0px 32px;
+}
+header nav ul li a {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 4px transparent;
+}
+
+.logo-li {
+    margin-bottom: 8px;
+}
+nav a.brandlogo {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 4px transparent;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+nav a.brandlogo:hover {
+    border-bottom: solid 4px transparent;
+}
+
+/* TopNav-Hidden */
+
+.topnav-hidden {
+    display: none;
+}
+
+.hide-this-ul {
+    display: none;
+}
+
+.dropdown-menu {
+    white-space: normal;
+    width: 90% !important;
+}
+
+.dropdown-menu a {
+    width: 100% !important;
+}
+
+.dropdown-menu a:hover {
+    border: none;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+/* Responsive Ul */
+
+@media screen and (max-width: 1100px) {
+    .product-info {
+        height: 1150px !important;
+    }
+
+    nav #nav-ul {
+        padding-left: 10px;
+    }
+
+    .hide-this-ul {
+        display: block;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .product-info {
+        height: 1400px !important;
+    }
+
+    .hide-this-ul {
+        display: none;
+    }
+    header nav ul .hide {
+        display: none;
+    }
+    header nav ul .icon {
+        display: block;
+    }
+    header nav ul .hidelogo {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .product-info {
+        height: 1450px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .topnav {
+        display: none;
+    }
+
+    header .topnav-hidden.responsive .brandlogo {
+        display: none;
+    }
+
+    .dropdown .dropbtn {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .topnav-hidden.responsive {
+        z-index: 1000;
+        position: fixed;
+        display: grid;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        margin-top: 17px;
+        padding-bottom: 2rem;
+        padding-left: 4rem;
+        background-color: #f3f3f3;
+        opacity: 100%;
+    }
+    .topnav-hidden.responsive a:not(:nth-child(3)) {
+        float: none;
+        display: block;
+    }
+
+    .topnav-hidden.responsive li {
+        list-style: none;
+    }
+
+    .topnav-hidden.responsive a {
+        margin: 20px 20px 40px 0px;
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .topnav-hidden.responsive a {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .product-info {
+        height: 1570px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product-info {
+        height: 1700px !important;
+    }
+
+    .hide-icons {
+        display: NONE;
+    }
+
+    .loginbox input[type="text"],
+    .loginbox input[type="password"],
+    .loginbox input[type="email"] {
+        width: 70%;
+    }
+
+    .login-btn {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .product-info {
+        height: 2050px !important;
+    }
+}
+
+/* Footer */
+
+/* Only for snippet */
+.double-nav .breadcrumb-dn {
+    color: #fff;
+}
+
+footer {
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 0px 100px;
+    z-index: 120000;
+}
+
+.footer-logo {
+    font-weight: bold;
+}
+
+footer p {
+    text-align: left;
+    color: #616161;
+}
+
+.social-icons {
+    margin: 0 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.social-icons:hover {
+    color: blue;
+}
+
+footer h5 {
+    font-family: Open Sans;
+    font-weight: 600;
+    text-align: left;
+}
+
+footer ul li {
+    text-align: left;
+    list-style: none;
+    margin-bottom: 12px !important;
+}
+
+footer ul li a {
+    font-family: Open Sans;
+    text-align: left;
+    text-decoration: none;
+    color: #616161;
+}
+
+footer a {
+    font-family: Open Sans;
+    text-align: left;
+    text-decoration: none;
+    color: #616161;
+}
